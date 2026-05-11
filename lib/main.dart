@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ui_playground/screen/card_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -53,16 +54,16 @@ class ShapeSection extends StatelessWidget {
 
         SizedBox(height: 20),
 
-        Container(
-          width: 200,
-          height: 120,
-          decoration: BoxDecoration(
-            color: Colors.green,
-            borderRadius: BorderRadius.circular(16),
-          ),
-        ),
+        // Container(
+        //   width: 200,
+        //   height: 120,
+        //   decoration: BoxDecoration(
+        //     color: Colors.green,
+        //     borderRadius: BorderRadius.circular(16),
+        //   ),
+        // ),
         SizedBox(height: 20),
-        Rectangulo(),
+        CardScreen(),
       ],
     );
   }
